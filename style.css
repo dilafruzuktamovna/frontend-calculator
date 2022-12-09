@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(172, 233, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainbox{
+    background-color: rgb(185, 232, 250);
+    height: 470px;
+    width: 370px;
+    padding: 10px;
+    
+}
+.box1{
+    background-color: rgba(255, 255, 255, 0.658);
+    height: 75px;
+    width: 75px;
+    border-color:rgb(145, 212, 238);
+    box-shadow: 0px 5px 0px 0px rgb(42, 131, 190);
+    border-radius: 3px;
+}
+.box2{
+    background-color: rgb(245, 241, 20);
+    height: 75px;
+    width: 75px;
+    border-color:rgb(185, 232, 250);
+    box-shadow: 0px 5px 0px 0px rgb(42, 131, 190);
+}
+.box3{
+    background-color: rgb(240, 131, 225);
+    height: 75px;
+    width: 75px;
+    border-color:rgb(240, 131, 225);
+    box-shadow: 0px 5px 0px 0px rgb(42, 131, 190);
+}
+.forinput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+}
+.rows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 15px;
+    
+}
+.inputclass{
+    height: 75px;
+    width: 85%;
+    box-shadow: 0px 5px 0px 0px rgb(42, 131, 190);
+    margin: 5px;
+    border-color:rgb(185, 232, 250);
+    margin-top: 10px;
+    
+}
